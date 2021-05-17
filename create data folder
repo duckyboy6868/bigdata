@@ -1,0 +1,24 @@
+
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/GGSN
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/ICC_GPRS
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/ICC_IC_CALL
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/ICC_OG_CALL
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/ICC_OG_CAL_OTHER
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/ICC_SMS_CONTENT_CALL
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/OG_SMS_CALL
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/UNRATE_CALL_ICC
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/UNRATE_ICC_OG_SMS_CALL
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/MSC_IC
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/MSC_OG
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/MSC_SMO
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/MSC_SMT
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/SCRATCH
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/SUB_INFO
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/VASP_ACTIVE
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/VASP_REG
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/VASP_DEL
+sudo -u hdfs hdfs dfs -mkdir /poc/mbf_datalake/landing/VLR
+
+
+
+
