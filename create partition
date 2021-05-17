@@ -1,0 +1,42 @@
+/data2	/sdb1
+/data3	/sdc1
+/data4	/sdd1
+/data5	/sde1
+/data6	/sdf1
+/data7	/sdg1
+
+mkdir /data2
+mkdir /data3
+mkdir /data4
+mkdir /data5
+mkdir /data6
+mkdir /data7
+
+fdisk /dev/sdb
+fdisk /dev/sdc
+fdisk /dev/sdd
+fdisk /dev/sde
+fdisk /dev/sdf
+fdisk /dev/sdg
+
+mkfs.xfs /dev/sdb1
+mkfs.xfs /dev/sdc1
+mkfs.xfs /dev/sdd1
+mkfs.xfs /dev/sde1
+mkfs.xfs /dev/sdf1
+mkfs.xfs /dev/sdg1
+
+mount /dev/sdb1 /data2
+mount /dev/sdc1 /data3
+mount /dev/sdd1 /data4
+mount /dev/sde1 /data5
+mount /dev/sdf1 /data6
+mount /dev/sdg1 /data7
+
+/dev/sdb1 /data2 xfs noatime,discard 0 0       
+/dev/sdc1 /data3 xfs noatime,discard 0 0 
+/dev/sdd1 /data4 xfs noatime,discard 0 0               
+/dev/sde1 /data5 xfs noatime,discard 0 0               
+/dev/sdf1 /data6 xfs noatime,discard 0 0
+/dev/sdg1 /data7 xfs noatime,discard 0 0
+
